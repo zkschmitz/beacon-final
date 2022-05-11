@@ -19,6 +19,9 @@
    2. Move the AlanSDK.xcframework to the root of the Xcode project.
    3. In the General tab, under the Frameworks -> Libraries -> Embedded Content section, select Embed & Sign for the AlanSDK.xcframework
 3. Select the Beacon App top layer -> Targets (Beacon) -> Signing & Capabilities -> Choose a provisonal profile
+4. Ensure Location Based AR packages and Focus Entity Packages are installed. Add the URL to Xcode 12+ Project under File > Swift Packages. 
+   1. https://github.com/Mist3r-R/location-based-ar.git
+   2. https://github.com/maxxfrazer/FocusEntity
 
 ## Source Files 
 Below is our file structure for the Core Beacon App. The top level folders are organized as follows
